@@ -1,0 +1,20 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "description": "show example",
+  "main": "index.js",
+  "author": "Aliaksei Kudrautsau",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "axios": "^0.27.2",
+    "babel-jest": "^29.3.1",
+    "javascript": "^1.0.0",
+    "jest": "^29.3.1",
+    "jest-matcher-one-of": "^1.0.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
