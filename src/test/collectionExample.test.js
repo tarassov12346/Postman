@@ -151,7 +151,7 @@ describe("example create a booking", () => {
     });
 
     test("checkin date is equal expected value", async () => {
-        await expect(bookingResponse.data.booking.bookingdates.checkin).toEqual("2022-11-29")
+        await expect(bookingResponse.data.booking.bookingdates.checkin).toEqual(bodyData.createBookingBody.bookingdates.checkin)
     })
 
     test("price in response is equal generated value", async () => {

@@ -8,8 +8,8 @@ export const createBookingBody = {
     depositpaid : false,
     bookingdates :
         {
-            checkin : "2022-11-29",
-            checkout :"2022-12-05"
+            checkin : preRequest.checkin,
+            checkout :preRequest.checkout
         },
     additionalneeds : variable.additionalNeeds
 }
